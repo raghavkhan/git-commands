@@ -24,6 +24,7 @@ git merge --abort (bcoz on;y fetch has performed and not merge so it is like und
 git rm [file]: Removes a file from the working directory and stages the removal.
 git remote -v: Lists remote repositories associated with the current repository.
 git diff: Shows the differences between the working directory and the repository.
+git switch -c <branch name> : creating new branch switching on it
 
 ----------------------------------------------
 THIS IS GOING TO BE MY SECOND COMMIT
