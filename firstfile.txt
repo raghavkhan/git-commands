@@ -1,0 +1,30 @@
+basic git commands 
+
+git init
+git status
+git add .
+git reset .
+git log
+git log --oneline
+git commit -m "commit message"
+git push -u origin <branchName>
+git remote add origin http-url
+git pull -u origin <branchName>(only updates the branch name ,it doesn't bring the other branches name in scenario)
+git pull (pull all the branches separately but update code for your current branch)
+git branch <branchName> (creates new branch but doesn't switch to that)
+git checkout <branchName> (switches to the created branch)
+git switch <branchName> ((switches to the created branch) || more modern)
+git checkout -b <branchName> (creates and switch on that branch)
+git branch -M <branchName> (changing the current branch name)
+git clone [repository]
+[git fetch + git merge = git pull]
+
+git pull --> if there commes conflict then you have to resolve , then only it will merge, otherwise, you cann't  switch branches even but you can do undo by -
+git merge --abort (bcoz on;y fetch has performed and not merge so it is like undoing the essential merge)
+git rm [file]: Removes a file from the working directory and stages the removal.
+git remote -v: Lists remote repositories associated with the current repository.
+git diff: Shows the differences between the working directory and the repository.
+
+----------------------------------------------
+THIS IS GOING TO BE MY SECOND COMMIT
+--------------------------------------------
